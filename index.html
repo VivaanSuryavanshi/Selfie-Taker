@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title> Take a Selfie </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <h1> Take a Selfie </h1>
+        <hr>
+        <a href="" id="link" download="myselfie.png"></a>
+        <h4> Please press allow as soon as the pop-up comes. After you give a voice command. </h4>
+        <h3> Say "take my selfie" to begin the process </h3>
+        <label>Your Voice Output</label>
+        <br>
+        <textarea id="textbox" readonly="true"></textarea>
+        <br>
+        <button onclick="startCamera()"> Start </button>
+        <br>
+        <br>
+        <label> Your Webcam </label>
+        <br>
+        <br>
+        <div id="camera"></div>
+        <br>
+        <label> Selfie Display </label>
+        <div id="result"></div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
